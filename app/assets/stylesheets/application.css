@@ -48,6 +48,18 @@ strong {
     font-weight: bold;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+    color: #000;
+}
+
+
+
 p {
     display: block;
     margin-block-start: 1em;
